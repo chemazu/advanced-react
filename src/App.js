@@ -1,5 +1,5 @@
 import React from 'react'
-import UseMemoExample from './usememo.example'
+import UseMemoExample from './useMemo/usememo.example'
 
 export default function App() {
   return (
