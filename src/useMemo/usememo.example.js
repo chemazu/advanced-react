@@ -3,9 +3,10 @@ import React,{useMemo, useState} from 'react'
 export default function UseMemoExample() {
     const [count, setCount] = useState(0);
     const [todos, setTodos] = useState([]);
+   
     const calculation = useMemo(()=>{return expensiveCalculation(count)},[count])
 
-  
+ 
     const increment = () => {
       setCount((c) => c + 1);
     };
